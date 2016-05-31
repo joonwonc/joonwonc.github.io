@@ -30,7 +30,7 @@ body {
     color: #263248;
     font-family: "avenir-roman";
     src: url(/fonts/avenir-roman.eot);
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
