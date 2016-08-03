@@ -1,36 +1,98 @@
 /*
  * Globals
  */
+@font-face {
+    font-family: 'Avenir Next Bold';
+    src: url('./fonts/avenir-next/bold.eot');
+    src: url('./fonts/avenir-next/bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/avenir-next/bold.woff2') format('woff2'),
+    url('./fonts/avenir-next/bold.woff') format('woff'),
+    url('./fonts/avenir-next/bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Avenir Next Demi';
+    src: url('./fonts/avenir-next/demi.eot');
+    src: url('./fonts/avenir-next/demi.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/avenir-next/demi.woff2') format('woff2'),
+    url('./fonts/avenir-next/demi.woff') format('woff'),
+    url('./fonts/avenir-next/demi.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Avenir Next Medium';
+    src: url('./fonts/avenir-next/medium.eot');
+    src: url('./fonts/avenir-next/medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/avenir-next/medium.woff') format('woff'),
+    url('./fonts/avenir-next/medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Avenir Next Regular';
+    src: url('./fonts/avenir-next/regular.eot');
+    src: url('./fonts/avenir-next/regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/avenir-next/regular.woff') format('woff'),
+    url('./fonts/avenir-next/regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Avenir Next Thin';
+    src: url('./fonts/avenir-next/thin.eot');
+    src: url('./fonts/avenir-next/thin.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/avenir-next/thin.woff2') format('woff2'),
+    url('./fonts/avenir-next/thin.woff') format('woff'),
+    url('./fonts/avenir-next/thin.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Avenir Next Ultra Light';
+    src: url('./fonts/avenir-next/ultralight.eot');
+    src: url('./fonts/avenir-next/ultralight.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/avenir-next/ultralight.woff') format('woff'),
+    url('./fonts/avenir-next/ultralight.ttf') format('truetype');
+    font-weight: 200;
+}
 
 /* Links */
 a,
 a:focus,
 a:hover {
-    color: #263248;
+    color: #c77966;
 }
 
 /* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-    color: #ffffff;
-    background-color: #7e8aa2;
-}
+/* .btn-default, */
+/* .btn-default:hover, */
+/* .btn-default:focus { */
+/*     color: #ffffff; */
+/*     background-color: #f6ffe0; */
+/* } */
 
 /*
  * Base structure
  */
-
 html,
 body {
     height: 100%;
-    background-color: #ffffff;
+    background-color: #2f343b;
 }
 body {
-    color: #263248;
-    font-family: "avenir-roman";
-    src: url(/fonts/avenir-roman.eot);
-    /* text-align: center; */
+    font-family: "Avenir Next Regular";
+    color: #7e827a;
+}
+
+/*
+ * Custom (not about bootstrap)
+ */
+.p-heading {
+    font-family: "Avenir Next Thin";
+    font-size: 32px;
+    color: #e3cda4;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -54,12 +116,11 @@ body {
     padding: 30px;
 }
 
-
 /*
  * Header
  */
 .masthead {
-    background-color: #ffffff;
+    background-color: #2f343b;
 }
 
 .masthead-brand {
@@ -78,19 +139,19 @@ body {
     padding-left: 0;
     font-size: 16px;
     font-weight: bold;
-    color: #263248; /* IE8 proofing */
+    color: #7e827a; /* IE8 proofing */
     border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-    background-color: transparent;
-    border-bottom-color: #263248;
+    border-bottom-color: #703030;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-    color: #263248;
-    border-bottom-color: #ff9800;
+    font-family: "Avenir Next Medium";
+    color: #7e827a;
+    border-bottom-color: #c77966;
 }
 
 @media (min-width: 768px) {
@@ -121,7 +182,7 @@ body {
  */
 
 .mastfoot {
-  color: #4c1b1b; /* IE8 proofing */
+  color: #703030; /* IE8 proofing */
 }
 
 
