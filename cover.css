@@ -94,6 +94,11 @@ body {
 /*
  * Custom (not about bootstrap)
  */
+ul,
+li,
+p {
+    line-height: 150%;
+}
 .p-heading {
     font-family: "Avenir Next Thin";
     font-size: 32px;
