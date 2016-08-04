@@ -71,12 +71,12 @@ a:hover {
 }
 
 /* Custom default button */
-/* .btn-default, */
-/* .btn-default:hover, */
-/* .btn-default:focus { */
-/*     color: #ffffff; */
-/*     background-color: #f6ffe0; */
-/* } */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #2f343b;
+    background-color: #2f343b;
+}
 
 /*
  * Base structure
@@ -97,6 +97,7 @@ body {
 ul,
 li,
 p {
+    font-size: 16px;
     line-height: 150%;
 }
 .p-heading {
@@ -107,6 +108,11 @@ p {
 .p-subheading {
     font-family: "Avenir Next Thin";
     font-size: 24px;
+    color: #e3cda4;
+}
+
+.emph {
+    color: #e3cda4;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -130,9 +136,17 @@ p {
     padding: 30px;
 }
 
+
+
 /*
  * Header
  */
+/* Bootstrap overrides */
+.nav > li > a {
+  padding: 0px 0px;
+}
+/* Bootstrap overrides end */
+
 .masthead {
     background-color: #2f343b;
 }
@@ -158,6 +172,7 @@ p {
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
+    background-color: #2f343b;
     border-bottom-color: #703030;
 }
 .masthead-nav > .active > a,
