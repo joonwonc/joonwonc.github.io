@@ -143,7 +143,7 @@ p {
  */
 /* Bootstrap overrides */
 .nav > li > a {
-  padding: 0px 0px;
+    padding: 0px 0px;
 }
 /* Bootstrap overrides end */
 
@@ -184,12 +184,12 @@ p {
 }
 
 @media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
+    .masthead-brand {
+	float: left;
+    }
+    .masthead-nav {
+	float: right;
+    }
 }
 
 
@@ -198,11 +198,11 @@ p {
  */
 
 .cover {
-  padding: 0 20px;
+    padding: 0 20px;
 }
 .cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+    padding: 10px 20px;
+    font-weight: bold;
 }
 
 
@@ -211,7 +211,7 @@ p {
  */
 
 .mastfoot {
-  color: #703030; /* IE8 proofing */
+    color: #703030; /* IE8 proofing */
 }
 
 
@@ -220,31 +220,32 @@ p {
  */
 
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+    /* Pull out the header and footer */
+    .masthead {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+    }
+    .mastfoot {
+	position: fixed;
+	bottom: 0;
+    }
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+	vertical-align: middle;
+    }
+    /* Handle the widths */
+    .masthead,
+    .mastfoot,
+    .cover-container {
+	width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
 }
 
 @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
+    .masthead,
+    .mastfoot,
+    .cover-container {
+	width: 700px;
+    }
 }
