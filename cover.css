@@ -1,63 +1,3 @@
-/*
- * Globals
- */
-@font-face {
-    font-family: 'Avenir Next Bold';
-    src: url('./fonts/avenir-next/bold.eot');
-    src: url('./fonts/avenir-next/bold.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/avenir-next/bold.woff2') format('woff2'),
-    url('./fonts/avenir-next/bold.woff') format('woff'),
-    url('./fonts/avenir-next/bold.ttf') format('truetype');
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Avenir Next Demi';
-    src: url('./fonts/avenir-next/demi.eot');
-    src: url('./fonts/avenir-next/demi.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/avenir-next/demi.woff2') format('woff2'),
-    url('./fonts/avenir-next/demi.woff') format('woff'),
-    url('./fonts/avenir-next/demi.ttf') format('truetype');
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: 'Avenir Next Medium';
-    src: url('./fonts/avenir-next/medium.eot');
-    src: url('./fonts/avenir-next/medium.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/avenir-next/medium.woff') format('woff'),
-    url('./fonts/avenir-next/medium.ttf') format('truetype');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Avenir Next Regular';
-    src: url('./fonts/avenir-next/regular.eot');
-    src: url('./fonts/avenir-next/regular.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/avenir-next/regular.woff') format('woff'),
-    url('./fonts/avenir-next/regular.ttf') format('truetype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Avenir Next Thin';
-    src: url('./fonts/avenir-next/thin.eot');
-    src: url('./fonts/avenir-next/thin.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/avenir-next/thin.woff2') format('woff2'),
-    url('./fonts/avenir-next/thin.woff') format('woff'),
-    url('./fonts/avenir-next/thin.ttf') format('truetype');
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'Avenir Next Ultra Light';
-    src: url('./fonts/avenir-next/ultralight.eot');
-    src: url('./fonts/avenir-next/ultralight.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/avenir-next/ultralight.woff') format('woff'),
-    url('./fonts/avenir-next/ultralight.ttf') format('truetype');
-    font-weight: 200;
-}
-
 /* Links */
 a:link {
     color: #c77966;
@@ -87,7 +27,8 @@ body {
     background-color: #2f343b;
 }
 body {
-    font-family: "Avenir Next Regular";
+    font-family: "Lato";
+    font-weight: 300;
     color: #7e827a;
 }
 
@@ -101,13 +42,15 @@ p {
     line-height: 150%;
 }
 .p-heading {
-    font-family: "Avenir Next Thin";
+    font-family: "Lato";
     font-size: 32px;
+    font-weight: 300;
     color: #e3cda4;
 }
 .p-subheading {
-    font-family: "Avenir Next Thin";
+    font-family: "Lato";
     font-size: 24px;
+    font-weight: 300;
     color: #e3cda4;
 }
 
@@ -178,7 +121,8 @@ p {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-    font-family: "Avenir Next Medium";
+    font-family: "Lato";
+    font-weight: 400;
     color: #7e827a;
     border-bottom-color: #c77966;
 }
