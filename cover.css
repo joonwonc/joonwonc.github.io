@@ -53,6 +53,11 @@ p {
     font-weight: 300;
     color: #e3cda4;
 }
+.p-subsubheading {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+}
 
 .emph {
     color: #e3cda4;
