@@ -545,6 +545,48 @@
 	    "instructor" : "David Deveau",
 	    "year" : 2017
 	}
+	28 : {
+	    "type" : "solo",
+	    "date" : "12/11/2017",
+	    "ctitle" : "MIT Emerson Scholar Piano Recital",
+	    "programs" : {
+		0 : {
+		    "composer" : "Joseph Haydn",
+		    "ptitle" : "Variations in F minor, Hob.XVII:6",
+		    "psubtitles" : { }
+		},
+		1 : {
+		    "composer" : "Alexander Scriabin",
+		    "ptitle" : "24 Preludes, op. 11",
+		    "psubtitles" : {
+			0 : "No. 1 in C major - Vivace",
+			1 : "No. 14 in E-flat minor - Presto"
+		    }
+		}
+	    },
+	    "performers" : { },
+	    "instructor" : "Marilyn Roth",
+	    "year" : 2017
+	},
+	29 : {
+	    "type" : "ensemble",
+	    "date" : "12/02/2017",
+	    "ctitle" : "MIT Emerson Scholar String Recital",
+	    "programs" : {
+		0 : {
+		    "composer" : "Edward Elgar",
+		    "ptitle" : "Cello Concerto in E minor, op. 85",
+		    "psubtitles" : {
+			0 : "IV. Allegro - Moderato - Allegro, ma non troppo - Poco piu lento - Adagio"
+		    }
+		}
+	    },
+	    "performers" : {
+		"vc" : "Hoon Cho",
+		"pf" : "Joonwon Choi (acc.)"
+	    },
+	    "year" : 2017
+	}
     }
 }
     
