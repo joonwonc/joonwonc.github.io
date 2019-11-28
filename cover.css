@@ -1,12 +1,12 @@
 /* Links */
 a:link {
-    color: #c77966;
+    color: #f26101;
     text-decoration: none;
 }
 
 a:visited,
 a:hover {
-    color: #c77966;
+    color: #f26101;
     text-decoration: underline;
 }
 
@@ -14,8 +14,8 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-    color: #2f343b;
-    background-color: #2f343b;
+    color: #ecf0f1;
+    background-color: #ecf0f1;
 }
 
 /*
@@ -24,12 +24,12 @@ a:hover {
 html,
 body {
     height: 100%;
-    background-color: #2f343b;
+    background-color: #ecf0f1;
 }
 body {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    color: #7e827a;
+    font-family: "Quicksand";
+    font-weight: 400;
+    color: #304269;
 }
 
 /*
@@ -38,29 +38,29 @@ body {
 ul,
 li,
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 150%;
 }
 .p-heading {
-    font-family: "Nunito";
+    font-family: "Quicksand";
     font-size: 32px;
     font-weight: 300;
-    color: #e3cda4;
+    color: #2980b9;
 }
 .p-subheading {
-    font-family: "Nunito";
+    font-family: "Quicksand";
     font-size: 24px;
     font-weight: 300;
-    color: #e3cda4;
+    color: #2980b9;
 }
 .p-subsubheading {
-    font-family: "Nunito";
+    font-family: "Quicksand";
     font-size: 18px;
     font-weight: 300;
 }
 
 .emph {
-    color: #e3cda4;
+    color: #2980b9;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -96,7 +96,7 @@ p {
 /* Bootstrap overrides end */
 
 .masthead {
-    background-color: #2f343b;
+    background-color: #ecf0f1;
 }
 
 .masthead-brand {
@@ -115,21 +115,21 @@ p {
     padding-left: 0;
     font-size: 16px;
     font-weight: bold;
-    color: #7e827a; /* IE8 proofing */
+    color: #304269; /* IE8 proofing */
     border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-    background-color: #2f343b;
-    border-bottom-color: #703030;
+    background-color: #ecf0f1;
+    border-bottom-color: #91bed4;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-    font-family: "Nunito";
+    font-family: "Quicksand";
     font-weight: 400;
-    color: #7e827a;
-    border-bottom-color: #c77966;
+    color: #304269;
+    border-bottom-color: #f26101;
 }
 
 @media (min-width: 768px) {
@@ -160,7 +160,7 @@ p {
  */
 
 .mastfoot {
-    color: #703030; /* IE8 proofing */
+    color: #91bed4; /* IE8 proofing */
 }
 
 
