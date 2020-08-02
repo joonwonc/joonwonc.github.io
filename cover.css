@@ -1,12 +1,12 @@
 /* Links */
 a:link {
-    color: #f26101;
+    color: #216fab;
     text-decoration: none;
 }
 
 a:visited,
 a:hover {
-    color: #f26101;
+    color: #216fab;
     text-decoration: underline;
 }
 
@@ -14,8 +14,8 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-    color: #ecf0f1;
-    background-color: #ecf0f1;
+    color: #ffffff;
+    background-color: #ffffff;
 }
 
 /*
@@ -24,12 +24,12 @@ a:hover {
 html,
 body {
     height: 100%;
-    background-color: #ecf0f1;
+    background-color: #ffffff;
 }
 body {
     font-family: "Quicksand";
     font-weight: 400;
-    color: #304269;
+    color: #2d2d2d;
 }
 
 /*
@@ -45,13 +45,13 @@ p {
     font-family: "Quicksand";
     font-size: 32px;
     font-weight: 300;
-    color: #2980b9;
+    color: #333333;
 }
 .p-subheading {
     font-family: "Quicksand";
     font-size: 24px;
     font-weight: 300;
-    color: #2980b9;
+    color: #333333;
 }
 .p-subsubheading {
     font-family: "Quicksand";
@@ -60,7 +60,7 @@ p {
 }
 
 .emph {
-    color: #2980b9;
+    color: #333333;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -96,7 +96,7 @@ p {
 /* Bootstrap overrides end */
 
 .masthead {
-    background-color: #ecf0f1;
+    background-color: #ffffff;
 }
 
 .masthead-brand {
@@ -115,21 +115,21 @@ p {
     padding-left: 0;
     font-size: 16px;
     font-weight: bold;
-    color: #304269; /* IE8 proofing */
+    color: #2d2d2d; /* IE8 proofing */
     border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-    background-color: #ecf0f1;
-    border-bottom-color: #91bed4;
+    background-color: #ffffff;
+    border-bottom-color: #ffffff;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
     font-family: "Quicksand";
     font-weight: 400;
-    color: #304269;
-    border-bottom-color: #f26101;
+    color: #2d2d2d;
+    border-bottom-color: #216fab;
 }
 
 @media (min-width: 768px) {
@@ -160,7 +160,7 @@ p {
  */
 
 .mastfoot {
-    color: #91bed4; /* IE8 proofing */
+    color: #ffffff; /* IE8 proofing */
 }
 
 
