@@ -38,7 +38,7 @@ body {
 ul,
 li,
 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 150%;
 }
 .p-heading {
@@ -60,6 +60,7 @@ p {
 }
 
 .emph {
+    font-weight: 600;
     color: #333333;
 }
 
@@ -83,8 +84,6 @@ p {
 .inner {
     padding: 30px;
 }
-
-
 
 /*
  * Header
@@ -195,6 +194,6 @@ p {
     .masthead,
     .mastfoot,
     .cover-container {
-	width: 700px;
+	width: 900px;
     }
 }
