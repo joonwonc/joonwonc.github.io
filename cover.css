@@ -119,6 +119,8 @@ p {
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
+    color: #216fab;
+    text-decoration: underline;
     background-color: #ffffff;
     border-bottom-color: #ffffff;
 }
