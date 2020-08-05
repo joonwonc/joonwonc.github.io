@@ -44,24 +44,27 @@ p {
 .p-heading {
     font-family: "Quicksand";
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 400;
     color: #333333;
 }
 .p-subheading {
     font-family: "Quicksand";
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
     color: #333333;
 }
 .p-subsubheading {
     font-family: "Quicksand";
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .emph {
     font-weight: 600;
     color: #333333;
+}
+.material-icons.md-16 {
+    font-size: 16px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
