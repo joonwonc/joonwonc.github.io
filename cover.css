@@ -65,6 +65,7 @@ p {
 }
 .material-icons.md-16 {
     font-size: 16px;
+    vertical-align: middle;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
