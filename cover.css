@@ -27,7 +27,7 @@ body {
     background-color: #ffffff;
 }
 body {
-    font-family: "Quicksand";
+    font-family: "Inter";
     font-weight: 400;
     color: #2d2d2d;
 }
@@ -38,23 +38,23 @@ body {
 ul,
 li,
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 150%;
 }
 .p-heading {
-    font-family: "Quicksand";
+    font-family: "Inter";
     font-size: 32px;
     font-weight: 400;
     color: #333333;
 }
 .p-subheading {
-    font-family: "Quicksand";
+    font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
     color: #333333;
 }
 .p-subsubheading {
-    font-family: "Quicksand";
+    font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
 }
@@ -64,7 +64,7 @@ p {
     color: #333333;
 }
 .material-icons.md-16 {
-    font-size: 16px;
+    font-size: 15px;
     vertical-align: middle;
 }
 
@@ -131,7 +131,7 @@ p {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-    font-family: "Quicksand";
+    font-family: "Inter";
     font-weight: 400;
     color: #2d2d2d;
     border-bottom-color: #216fab;
